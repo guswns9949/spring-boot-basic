@@ -12,7 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 class MemoryMemberRepositoryTest {
 
     MemoryMemberRepository repository = new MemoryMemberRepository();
-
+    
+    // 각각 테스트후에 리파지토리를 클리어 해줌
     @AfterEach
     public void afterEach() {
         repository.clearStore();
