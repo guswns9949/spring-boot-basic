@@ -33,6 +33,7 @@ class MemoryMemberRepositoryTest {
         assertThat(result).isEqualTo(member);
     }
 
+
     @Test
     public void findByName() {
         //given
